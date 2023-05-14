@@ -6,9 +6,9 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    QTcpServer serv();
+    QTcpServer serv;
 
-    QSqlDatabase db();
+    QSqlDatabase db;
 
     return a.exec();
 }
